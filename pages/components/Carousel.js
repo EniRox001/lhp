@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export default function Carousel() {
   return (
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -8,10 +6,9 @@ export default function Carousel() {
         <img src='/assets/images/carousel-1.png' class="d-block w-100" alt="..."/>
       </div>
       <div class="carousel-item">
-        <img src='/assets/images/carousel-2.png' class="d-block w-100" alt="..."/>
-      </div>
-      <div class="carousel-item">
-        <img src='/assets/images/carousel-3.png' class="d-block w-100" alt="..."/>
+        <video controls class="d-block w-100">
+          <source src="/assets/videos/video.webm" type="video/webm"></source>
+        </video>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

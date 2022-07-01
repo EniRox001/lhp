@@ -6,10 +6,6 @@ body {
   color: white;
 }
 
-.main-logo {
-  
-}
-
 @media (max-width: 457px) {
   .main-logo {
     width: 13em;

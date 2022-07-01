@@ -10,8 +10,8 @@ export default function Footer() {
             <div className="footer-body my-5">
                 <div className="footer-body-contact-us">
                     <h5 className="footer-body-contact-us-header">CONTACT US</h5>
-                    <p className="footer-body-contact-us-email">TTEAM@LIGHTHOUSE-PORTAL.COM</p>
-                    <p className="footer-body-contact-us-location">P.O. Box 1562 New Jersey, USA</p>
+                    <a href="mailto:support@lighthouse_portal.com" className="footer-body-contact-us-email">TEAM@LIGHTHOUSE-PORTAL.COM</a>
+                    <p className="footer-body-contact-us-location">P.O. Box 156 New Jersey, USA</p>
                 </div>
                 <div className="footer-body-about-us">
                     <h5 className="footer-body-about-us-header">ABOUT US</h5>
